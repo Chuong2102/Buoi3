@@ -21,5 +21,15 @@ namespace Buoi3
         {
 
         }
+
+        private void btnChoose_Click(object sender, EventArgs e)
+        {
+            if (radBlue.Checked)
+                picColor.BackColor = Color.Blue;
+            if (radRed.Checked)
+                picColor.BackColor = Color.Red;
+            if (radYellow.Checked)
+                picColor.BackColor = Color.Yellow;
+        }
     }
 }
