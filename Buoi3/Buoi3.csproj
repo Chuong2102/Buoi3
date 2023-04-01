@@ -64,6 +64,18 @@
     <Compile Include="Buoi4ComboBox.Designer.cs">
       <DependentUpon>Buoi4ComboBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Buoi4ScrollBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buoi4ScrollBar.Designer.cs">
+      <DependentUpon>Buoi4ScrollBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buoi4Word.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buoi4Word.Designer.cs">
+      <DependentUpon>Buoi4Word.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +92,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Buoi4ComboBox.resx">
       <DependentUpon>Buoi4ComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buoi4ScrollBar.resx">
+      <DependentUpon>Buoi4ScrollBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buoi4Word.resx">
+      <DependentUpon>Buoi4Word.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
